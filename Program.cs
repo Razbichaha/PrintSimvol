@@ -43,17 +43,7 @@ namespace PrintSimvol
                     }
                     Console.Write("\n");
                     }
-                    
-                    
-                    
                 }
-
-
-            
-
-
-
-           // Console.WriteLine(userName + "  " + userChar);
             Console.ReadLine();
         }
     }

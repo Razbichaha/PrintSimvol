@@ -19,6 +19,7 @@ namespace PrintSimvol
             {
                 middleLine = middleLine + userChar;
             }
+
             Console.Write(middleLine+"\n");
             Console.Write(userChar+ userName+userChar+"\n");
             Console.Write(middleLine+"\n");

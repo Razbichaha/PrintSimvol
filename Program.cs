@@ -14,36 +14,16 @@ namespace PrintSimvol
             char userChar = Console.ReadKey().KeyChar;
             Console.WriteLine();
             int addingSymvol = 2;
-            int rectangleHeight = 3;
             Console.Write("\n");
+            string middleLine = "";
 
-                for(int i=0;i<rectangleHeight;i++)
-                {
-                    
-                    if (i == 0)
-                    {
-                    for(int u=0;u<userName.Length+addingSymvol;u++)
-                    {
-                        Console.Write(userChar);
-                    }
-                    Console.Write("\n");
-                    }
-
-                   if (i == 1) 
-                    {
-                    Console.Write(userChar + userName + userChar);
-                    Console.Write("\n"); 
-                    }
-                    
-                   if (i == 2) 
-                   {
-                    for (int u = 0; u < userName.Length + addingSymvol; u++)
-                    {
-                        Console.Write(userChar);
-                    }
-                    Console.Write("\n");
-                    }
-                }
+            for (int i = 0; i < userName.Length + addingSymvol; i++)
+            {
+                middleLine = middleLine + userChar;
+            }
+            Console.Write(middleLine+"\n");
+            Console.Write(userChar+ userName+userChar+"\n");
+            Console.Write(middleLine+"\n");
             Console.ReadLine();
         }
     }

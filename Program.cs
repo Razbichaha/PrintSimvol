@@ -6,8 +6,6 @@ namespace PrintSimvol
     {
         static void Main(string[] args)
         {
-
-
             Console.WriteLine("Выберите имя для вывода");
             string userName = Console.ReadLine();
             Console.WriteLine("Выберите символ");
